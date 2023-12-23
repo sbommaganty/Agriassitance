@@ -1,5 +1,5 @@
 ## 
- Farming Tutorial App with Multi-language Support and Smart Assist
+🌾 Farming Tutorial App with Multi-language Support and Smart Assist
 
 ## Description 🎧
 - Conceived and built an Android application that provides farmers with high-quality farming techniques that will lead to substantial crop yields.
