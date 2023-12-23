@@ -24,7 +24,7 @@ git clone <repository Url>
 
 **Run the application** 
 ```
-Use your Android phone for better experience.
+Use Ctrl + Shift + F9 to run the project.
 ```
 ## Built With 🎯
 **Android Studio**
