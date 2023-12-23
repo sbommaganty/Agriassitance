@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="7dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/cardview_dark_background"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@+id/thumbnail"
+            />
+
+        <!-- <TextView
+             android:id="@+id/txtCount"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="10dp"
+             android:textSize="20sp"
+             android:layout_below="@+id/txtTitle"/>-->
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitle"
+            android:drawableLeft="@drawable/ic_play_arrow_black_24dp"
+            android:drawableRight="@drawable/ic_pause_circle_filled_black_24dp"
+            android:text="/"
+            android:backgroundTint="@color/custombutton"
+            android:pointerIcon="hand"></Button>
+
+        <Button
+            android:id="@+id/english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitle"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/custombutton"
+            android:fontFamily="sans-serif-black"
+            android:pointerIcon="hand"
+            android:text="ENGLISH"></Button>
+
+        <Button
+            android:id="@+id/you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/hindi"
+            android:layout_alignBottom="@+id/hindi"
+            android:layout_marginEnd="107dp"
+            android:layout_marginBottom="-51dp"
+            android:backgroundTint="@color/red"
+            android:drawableLeft="@drawable/ic_play_arrow_black_24dp"
+            android:fontFamily="sans-serif-black"
+            android:pointerIcon="hand"
+            android:text="YouTube"></Button>
+
+        <Button
+            android:id="@+id/telugu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitle"
+            android:layout_marginLeft="120dp"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="@color/custombutton"
+            android:text="Telugu"
+            android:pointerIcon="hand"></Button>
+
+        <Button
+            android:id="@+id/hindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitle"
+            android:layout_marginLeft="250dp"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="@color/custombutton"
+            android:text="Hindi"
+            android:pointerIcon="hand"></Button>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
