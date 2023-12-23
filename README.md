@@ -10,7 +10,7 @@ This project utilized the benefits of multiple technologies such as
 - kotlin
 
  ##Video :
-Here is the demo:  
+Here is the demo: https://github.com/sbommaganty/Agriassitance/assets/87115621/f0d22921-006f-4e3e-a039-6fdd50bc74e8  
  
 ### Prerequisites☔
 You will need to install Android Studio. 
