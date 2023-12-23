@@ -1,7 +1,7 @@
-## Agriassitance
+## Agriassitance 🧑‍🌾
 🌾 Farming Tutorial App with Multi-language Support and Smart Assist
 
-## Description 🎧
+## Description 📋
 - Conceived and built an Android application that provides farmers with high-quality farming techniques that will lead to substantial crop yields.
 - The application provides content in both visual and audio format and has built-in multi-language support using Firebase ML-kit to cater to the linguistic tastes of users across the various regions in India.
 
